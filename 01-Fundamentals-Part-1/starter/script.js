@@ -1,4 +1,7 @@
+/*
+
 let js = "amazing";
+
 console.log(40 + 8 + 23 - 10);
 
 console.log("Thijmen");
@@ -29,3 +32,13 @@ let myCurrentJob = "Teacher";
 
 let job1 = "programmer"; 
 let job2 = "teacher";
+
+console.log(myFirstJob);
+
+*/
+
+let javascriptIsFun = true;
+console.log(javascriptIsFun);
+
+console.log(typeof true);
+
