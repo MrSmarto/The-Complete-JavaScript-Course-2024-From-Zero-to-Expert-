@@ -79,33 +79,48 @@ console.log(typeof year);
 // LECTURE 13. OPERATORS
 
 // math operators
-const now = 2037;
-const ageThijmen = now - 1998;
-const ageSarah = now - 2018;
-console.log(ageThijmen, ageSarah);
+// const now = 2037;
+// const ageThijmen = now - 1998;
+// const ageSarah = now - 2018;
+// console.log(ageThijmen, ageSarah);
 
-console.log(ageThijmen * 2, ageThijmen / 10, 2 ** 3);
-// 2 ** 3 means 2 to the power of 3 = 2 * 2 * 2 = 8
+// console.log(ageThijmen * 2, ageThijmen / 10, 2 ** 3);
+// // 2 ** 3 means 2 to the power of 3 = 2 * 2 * 2 = 8
 
-const firstName = "Thijmen";
-const lastName = "Smart";
-console.log(firstName + " " + lastName);
+// const firstName = "Thijmen";
+// const lastName = "Smart";
+// console.log(firstName + " " + lastName);
 
-// Assignment operators
-let x = 10 + 5;
-x += 10; // x = x + 10 = 25
-x *= 4; // x = x * 4 = 100
-x++; // x = x + 1 = 101
-x--; // x = x - 1 = 99
-console.log(x);
+// // Assignment operators
+// let x = 10 + 5;
+// x += 10; // x = x + 10 = 25
+// x *= 4; // x = x * 4 = 100
+// x++; // x = x + 1 = 101
+// x--; // x = x - 1 = 99
+// console.log(x);
 
-// comparison operators
-console.log(ageThijmen > ageSarah); // >, <, >=, <=
-console.log(ageSarah >= 18);
+// // comparison operators
+// console.log(ageThijmen > ageSarah); // >, <, >=, <=
+// console.log(ageSarah >= 18);
 
-const  isFullAge = ageSarah >= 18;
+// const  isFullAge = ageSarah >= 18;
 
-console.log(now - 1991 > now - 2018);
+// console.log(now - 1991 > now - 2018);
 
 
 // LECTURE 14. OPERATORS PRECEDENCE
+
+// const now = 2037;
+// const ageThijmen = now - 1998;
+// const ageSarah = now - 2018;
+
+// console.log(now - 1991 > now - 2018);
+
+// // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence
+
+// let x, y; 
+// x = y = 25 - 10 - 5; // x = y = 10, x = 10
+// console.log(x, y);
+
+// const averageAge = (ageThijmen + ageSarah) / 2
+// console.log(ageThijmen, ageSarah, averageAge);
