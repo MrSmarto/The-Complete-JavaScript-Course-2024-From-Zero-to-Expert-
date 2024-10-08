@@ -61,16 +61,51 @@ console.log(typeof year);
 
 */
 
-// LECTURE 12.
+// LECTURE 12. let, const and var
 
-let age = 30;
-age = 31;
+// let age = 30;
+// age = 31;
 
-const birthYear = 1991;
-// birthYear = 1990;
+// const birthYear = 1991;
+// // birthYear = 1990;
 
-var job = "programmer";
-job = "teacher";
+// var job = "programmer";
+// job = "teacher";
 
-lastName = "Smart";
-console.log(lastName);
+// lastName = "Smart";
+// console.log(lastName);
+
+
+// LECTURE 13. OPERATORS
+
+// math operators
+const now = 2037;
+const ageThijmen = now - 1998;
+const ageSarah = now - 2018;
+console.log(ageThijmen, ageSarah);
+
+console.log(ageThijmen * 2, ageThijmen / 10, 2 ** 3);
+// 2 ** 3 means 2 to the power of 3 = 2 * 2 * 2 = 8
+
+const firstName = "Thijmen";
+const lastName = "Smart";
+console.log(firstName + " " + lastName);
+
+// Assignment operators
+let x = 10 + 5;
+x += 10; // x = x + 10 = 25
+x *= 4; // x = x * 4 = 100
+x++; // x = x + 1 = 101
+x--; // x = x - 1 = 99
+console.log(x);
+
+// comparison operators
+console.log(ageThijmen > ageSarah); // >, <, >=, <=
+console.log(ageSarah >= 18);
+
+const  isFullAge = ageSarah >= 18;
+
+console.log(now - 1991 > now - 2018);
+
+
+// LECTURE 14. OPERATORS PRECEDENCE
