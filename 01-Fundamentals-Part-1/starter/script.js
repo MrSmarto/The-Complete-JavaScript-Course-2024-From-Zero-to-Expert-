@@ -124,3 +124,85 @@ console.log(typeof year);
 
 // const averageAge = (ageThijmen + ageSarah) / 2
 // console.log(ageThijmen, ageSarah, averageAge);
+
+// LECTURE 17. STRINGS and TEMPLATE LITERALS
+
+// const firstName = "Thijmen";
+// const job = "Designer";
+// const birthYear = 1998;
+// const year = 2037;
+
+// const thijmen = "I'm " + firstName + ", a " + (year - birthYear) + " years old " + job + "!"; 
+// console.log(thijmen);
+
+// // template literal -- backticks
+// const thijmenNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
+// console.log(thijmenNew);
+
+// // backticks
+// console.log(`just a regular string...`)
+
+// // oude versie
+// console.log('String with \n\
+// multiple \n\
+// lines')
+
+// // backticks
+// console.log(`String
+// multiple
+// lines`);
+
+// // LECTURE 18. IF/ELSE STATEMENTS
+
+// const age = 15;
+// const isOldEnough = age >= 18;
+
+// if (age >= 18) {
+//     console.log(`Sarah can start driving license`);
+// } else {
+//     const yearsLeft = 18 - age;
+//     console.log(`Sarah is too young. Wait another ${yearsLeft} years ;)`)
+// }
+
+// const birthYear = 1991;
+// let century;
+
+// if (birthYear <= 2000) {
+//     century = 20;
+
+// } else {
+//     century = 21;
+// }
+// console.log(century);
+
+// // LECTURE 20. TYPE CONVERSION AND COERCION
+
+// type conversion
+const inputYear = '1991';
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
+
+console.log(Number('Thijmen'));
+console.log(typeof NaN);
+
+console.log(String(23), 23);
+
+//type coercion
+console.log(`I am ` + 23 + ` years old`);
+console.log(`I am ` + `23` + ` years old`);
+console.log(`23` - `10` - 3);
+console.log(`23` * `2`);
+console.log(`23` / `2`);
+
+
+let n = `1` + 1; // 11 (1 string + 1)
+n = n - 1; // 11 - 1
+console.log(n); // = 10
+
+let x = 2+3+4+`5`
+console.log(x); // = 95 | 2 + 3 = 5 = 4 = 9 plak "5" eraan
+
+let y = `10` - `4` - `3` - 2 + `5`
+console.log(y); // = 15 | 10 - 4 = 6 - 3 = 3 - 2 = 1 plak 5 eraan
+
+
